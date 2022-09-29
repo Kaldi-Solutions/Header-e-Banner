@@ -1,0 +1,107 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0ex;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    border: green solid 3px;
+    background-image: url("assets/kaldi\ finall.png");
+    background-size: cover;
+    display: auto;
+    margin: auto;
+    width: 80;
+    border-bottom: green 3px;
+}
+
+.container {
+    border: green solid 3px;
+
+    width: 80%;
+    margin: auto;
+}
+
+.header .container {
+    border: green solid 3px;
+    color: rgb(255, 140, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    border: green solid 3px;
+
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 600px;
+}
+
+.banner {
+    border: green solid 3px;
+    background-image: url(assets/estufa-de-secagem-do-café-90471635.jpg);
+    height: 650px;
+    display: flex;
+    background-size: cover;
+
+}
+
+.banner .container .spanum {
+    border: yellow solid 3px;
+    height: 30%;
+    color: white;
+
+}
+
+.titulo {
+    font-size: 45px;
+}
+
+.social {
+    height: 700px;
+}
+
+.social .container {
+    height: 650px;
+    border: red solid 3px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.social .container .box {
+    border: green solid 3px;
+    background-color: #e0c669;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    border: green solid 3px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.box .sobre1 {
+   margin: 8px;
+   margin-left: 10%;
+   font-weight: 1000;
+
+}
+
+.box2 .sobre2 {
+    width: 70%;
+}
+
