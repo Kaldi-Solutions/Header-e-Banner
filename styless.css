@@ -5,63 +5,95 @@ html {
 body {
     margin: 0ex;
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial,Helvetica, sans-serif;
 
 }
 
 .header {
-    border: green solid 3px;
-    background-image: url("assets/kaldi\ finall.png");
-    background-size: cover;
-    display: auto;
+    /* border: green solid 3px; */
     margin: auto;
-    width: 80;
     border-bottom: green 3px;
+    height: 80px;
+    display: flex;
 }
 
 .container {
-    border: green solid 3px;
-
+    /* border: green solid 3px; */
     width: 80%;
     margin: auto;
 }
 
 .header .container {
-    border: green solid 3px;
+    /* border: green solid 3px; */
     color: rgb(255, 140, 0);
     display: flex;
     justify-content: space-between;
+    justify-content: end;
+    margin-right: 10%;
+}
+.header img {
+    width: 250px;
+    height: 120px; 
+    display: flex;
+    margin-left: 15%;
+    align-self: center;
+
 }
 
 .navbar {
-    border: green solid 3px;
-
+    /* border: green solid 3px; */
     justify-content: space-around;
     color: rgb(0, 0, 0);
     display: flex;
     list-style: none;
     align-items: center;
     width: 600px;
+    height: 73px;
 }
 
 .banner {
-    border: green solid 3px;
-    background-image: url(assets/estufa-de-secagem-do-café-90471635.jpg);
+    /* border: green solid 3px; */
+    background-image: url(assets/zyro-image.png);
     height: 650px;
+    width: auto;
     display: flex;
     background-size: cover;
-
+}
+.banner .container {
+    /* border: rgb(255, 0, 0) solid 3px; */
+    height: 350px;
+    display: flex;
+    justify-content: start;
 }
 
-.banner .container .spanum {
-    border: yellow solid 3px;
-    height: 30%;
-    color: white;
+.banner .container .caixa {
+/* border: pink solid 3px; */
+flex-direction: column;
+font-size: 25px;
+color: aliceblue;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 475px;
 
 }
+#titulo{
+    font-size: 100px;
+    font-weight: 900;
+    
+}
+#titulo2{
+    font-size: 40px;
+    font-weight: 900;
 
-.titulo {
-    font-size: 45px;
+}
+#titulo3{
+    font-size: 25px;
+    font-weight: 900;
+}
+.banner .container .caixa span{
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+
 }
 
 .social {
@@ -69,15 +101,15 @@ body {
 }
 
 .social .container {
+    /* border: red solid 3px; */
     height: 650px;
-    border: red solid 3px;
     display: flex;
     justify-content: space-around;
 
 }
 
 .social .container .box {
-    border: green solid 3px;
+    /* border: green solid 3px; */
     background-color: #e0c669;
     border-radius: 30px;
     display: flex;
@@ -85,7 +117,7 @@ body {
 }
 
 .box2 {
-    border: green solid 3px;
+    /* border: green solid 3px; */
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
